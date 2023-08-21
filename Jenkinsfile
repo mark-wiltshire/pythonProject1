@@ -15,7 +15,7 @@ pipeline {
                     if (checkOs() == 'Windows') {
                         bat 'first.py'
                     } else {
-                        sh 'first.py'
+                        sh '/Users/markwiltshire/PycharmProjects/pythonProject1/venv/bin/python first.py'
                     }
                 }
             }
